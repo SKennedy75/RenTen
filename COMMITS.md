@@ -12,4 +12,5 @@ Commit 4: PHP file for displaying addresses from SQL database by Sean
 
 Commit 5: Update to COMMITS and STYLE documentation
 
-Commit 6: 
+Commit 6: HTML file for displaying the Listings by Gurkirat
+    - I (Sean) also made the commit for Gurkirat, but again it was his work
