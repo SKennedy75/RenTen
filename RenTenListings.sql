@@ -16,15 +16,15 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `address`
+-- Table structure for table `addresses`
 --
 
-DROP TABLE IF EXISTS `address`;
+DROP TABLE IF EXISTS `addresses`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `address` (
+CREATE TABLE `addresses` (
   `AddressID` int NOT NULL,
-  `State` varchar(40) DEFAULT NULL,
+  `StateName` varchar(40) DEFAULT NULL,
   `City` varchar(40) DEFAULT NULL,
   `Zipcode` int DEFAULT NULL,
   `Street` varchar(40) DEFAULT NULL,
@@ -33,13 +33,13 @@ CREATE TABLE `address` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `address`
+-- Dumping data for table `addresses`
 --
 
-LOCK TABLES `address` WRITE;
+LOCK TABLES `addresses` WRITE;
 /*!40000 ALTER TABLE `address` DISABLE KEYS */;
-INSERT INTO `address` VALUES (505391,'NY','Brooklyn',39664,'Sun St'),(699081,'NY','Queens',75312,'Baker St'),(722914,'NY','Manhattan',90517,'Rose St');
-/*!40000 ALTER TABLE `address` ENABLE KEYS */;
+INSERT INTO `addresses` VALUES (505391,'NY','Brooklyn',39664,'Sun St'),(699081,'NY','Queens',75312,'Baker St'),(722914,'NY','Manhattan',90517,'Rose St');
+/*!40000 ALTER TABLE `addresses` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --

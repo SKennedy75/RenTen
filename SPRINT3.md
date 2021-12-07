@@ -1,0 +1,4 @@
+In Sprint 3, we spent a lot of the time learning and doing research. Many of us had zero total experience in web development, so we had to learn languages like HTML and PHP from scratch. 
+We also had no experience in GitHub so we had to learn that as well. By the end of the sprint, we were all more confident in our understandings of these topics. 
+Although our code isn't entirely finished yet, we feel we've given ourselves a solid framework to build off of, so we can finish strong over the next two weeks.
+Some features to still work on are the chat messaging system, and overall quality of life changes to make the site look nicer when it is complete.
