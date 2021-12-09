@@ -26,7 +26,10 @@ CREATE TABLE `userinfo` (
   `userID` int NOT NULL,
   `username` varchar(40) DEFAULT NULL,
   `accounttype` varchar(40) DEFAULT NULL,
+<<<<<<< HEAD
   `password` varchar(40) DEFAULT NULL,
+=======
+>>>>>>> 7e48b222eac5b7cc2159f6a42accf8e756d5a771
   PRIMARY KEY (`userID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -37,7 +40,11 @@ CREATE TABLE `userinfo` (
 
 LOCK TABLES `userinfo` WRITE;
 /*!40000 ALTER TABLE `userinfo` DISABLE KEYS */;
+<<<<<<< HEAD
 INSERT INTO `userinfo` VALUES (137694,'Todd961','Renter','ApartmentSeeker123'),(337612,'TiaSmith9','Rentee','B1ackSm1th'),(380047,'Bob123','Rentee','Bob\'sBurgers904'),(500842,'Pat604','Renter','HouseWanter904'),(782150,'SamHollins57','Rentee','Bu$ine$$'),(893441,'MariaBaskins3','Renter','B@sk1nR0b1ns');
+=======
+INSERT INTO `userinfo` VALUES (137694,'Todd961','Renter'),(337612,'TiaSmith9','Rentee'),(380047,'Bob123','Rentee'),(500842,'Pat604','Renter'),(782150,'SamHollins57','Rentee'),(893441,'MariaBaskins3','Renter');
+>>>>>>> 7e48b222eac5b7cc2159f6a42accf8e756d5a771
 /*!40000 ALTER TABLE `userinfo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +57,8 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+<<<<<<< HEAD
 -- Dump completed on 2021-12-08 15:09:20
+=======
+-- Dump completed on 2021-12-06 22:05:17
+>>>>>>> 7e48b222eac5b7cc2159f6a42accf8e756d5a771
