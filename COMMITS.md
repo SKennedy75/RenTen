@@ -25,3 +25,9 @@ Commit 9-24 were all done at the end of Sprint 4, and pertain to the finishing t
 Commit 25: Talks about our general thoughts after Sprint 4, and the satisfaction we have with the finished RenTen product
 
 Commit 26: The final commit, that being this file
+
+Commit 27: I guess that wasn't the last commit, we decided to add the screenshot outputs to the GitHub page as well.
+
+Commit 28-30: I added the screenshots but made it the wrong folder name so I removed and re-added them.
+
+Commit 31: Re-commiting the COMMITS.md file. This should actually be the last time (hopefully).
