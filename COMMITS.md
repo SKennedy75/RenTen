@@ -19,9 +19,9 @@ Commit 7: Added SPRINT3.md that covers thought process and how we used our time 
 
 Commit 8: Updated database
 
-Commit 9-23 were all done at the end of Sprint 4, and pertain to the finishing touches and new implementations we got done.
+Commit 9-24 were all done at the end of Sprint 4, and pertain to the finishing touches and new implementations we got done.
     Highlights of these commits include the updated index.php file, the addition of the rentainratings database, and the login page
 
-Commit 24: Talks about our general thoughts after Sprint 4, and the satisfaction we have with the finished RenTen product
+Commit 25: Talks about our general thoughts after Sprint 4, and the satisfaction we have with the finished RenTen product
 
-Commit 25: The final commit, that being this file
+Commit 26: The final commit, that being this file
