@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> Renter Setup </title>
+	</head>
+    <style>
+        body {background-image: url('renten.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              color: rgb(192, 190, 190);
+            }
+    </style>
+	<body>
+		<label> Name: <input type = "text" name = "name" size = "30" /> </label>
+		<br />
+		<label> Location: <input type = "text" name = "where" size = "30" /> </label>
+		<br />
+		<label> Description: <input type = "text" name = "description" size = "500" /> </label>
+		<br />
+		<br />
+		<br />
+		<br />
+		<label> Rating: 1: <input type = "radio" name = "rating" value = "1" checked = "checked" /> </label>
+		<label> 2: <input type = "radio" name = "rating" value = "2" checked = "checked" /> </label>
+		<label> 3: <input type = "radio" name = "rating" value = "3" checked = "checked" /> </label>
+		<label> 4: <input type = "radio" name = "rating" value = "4" checked = "checked" /> </label>
+		<label> 5: <input type = "radio" name = "rating" value = "5" checked = "checked" /> </label>
+		<br />
+		<label> <textarea name = "rating" rows = "3" cols = "100"> </textarea> </label>
+		<br />
+        
+		<form action="thankyou.html">
+            <input type="submit" value="Submit" />
+        </form>
+	</body>
+</html>
