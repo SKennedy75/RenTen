@@ -37,7 +37,7 @@ CREATE TABLE `addresses` (
 --
 
 LOCK TABLES `addresses` WRITE;
-/*!40000 ALTER TABLE `address` DISABLE KEYS */;
+/*!40000 ALTER TABLE `addresses` DISABLE KEYS */;
 INSERT INTO `addresses` VALUES (505391,'NY','Brooklyn',39664,'Sun St'),(699081,'NY','Queens',75312,'Baker St'),(722914,'NY','Manhattan',90517,'Rose St');
 /*!40000 ALTER TABLE `addresses` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -57,7 +57,7 @@ CREATE TABLE `listings` (
   PRIMARY KEY (`RenteeID`,`AddressID`),
   KEY `AddressID` (`AddressID`),
   CONSTRAINT `listings_ibfk_1` FOREIGN KEY (`RenteeID`) REFERENCES `rentee` (`UserID`),
-  CONSTRAINT `listings_ibfk_2` FOREIGN KEY (`AddressID`) REFERENCES `address` (`AddressID`)
+  CONSTRAINT `listings_ibfk_2` FOREIGN KEY (`AddressID`) REFERENCES `addresses` (`AddressID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -67,7 +67,7 @@ CREATE TABLE `listings` (
 
 LOCK TABLES `listings` WRITE;
 /*!40000 ALTER TABLE `listings` DISABLE KEYS */;
-INSERT INTO `listings` VALUES (337612,505391,'A small house in a rural area',2537.6),(380047,699081,'A house with an ocean side view',3098.71),(782150,722914,'An apartment in the heart of the city',5925.8);
+INSERT INTO `listings` VALUES (337612,505391,'A small house in a rural area',2537.6),(380047,699081,'A house with an ocean side view',3098.71),(782150,722914,'An apartment in the heart of the city',5925.8),(380047,499652,'A small apartmnet in the suburbs',4921.88),(380047,699081,'A house with an ocean side view',3098.71),(380047,779362,'An apartment in a building that is right next to a large park',6321.8),(782150,722914,'An apartment in the heart of the city',5925.8),(782150,900478,'A house within a small and quiet neighborhood',3091.49);
 /*!40000 ALTER TABLE `listings` ENABLE KEYS */;
 UNLOCK TABLES;
 
